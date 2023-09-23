@@ -4,12 +4,10 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #F2F2F2;
-
 }
 
 .container{
 display: flex;
-
 }
 
 .welcome{
@@ -58,6 +56,7 @@ button:hover{
     padding: 80px 20px;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
+    position: relative;
 }
 
 .cadastro h2{
@@ -69,6 +68,7 @@ button:hover{
 
 .cadastro p{
     color: rgba(128, 128, 128, 0.575);
+    margin-bottom: 6px;
 }
 
 .logo{
@@ -85,12 +85,14 @@ form{
 
 form input {
     padding: 15px 20px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     outline: none;
     border: none;
+    border-left: 5px solid #56A68F;
     margin-top: 10px;
     background-color: #ECF0F1;
+    
 }
 
 ::placeholder{
@@ -105,6 +107,16 @@ form input {
     border-radius: 50px;
     background-color: #56A68F;
     color: white;
+    border: none;
+}
+
+.aprovado{
+    position: absolute;
+    top:-30px;
+    right: -17px;
+    transform: rotate(90deg);
+ 
+
 }
 
 .btn:hover{
@@ -130,6 +142,7 @@ form input {
         border-radius: 17px;
         max-width: 300px;
     }
+  
 }
 
 
